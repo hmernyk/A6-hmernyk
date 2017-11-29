@@ -2,43 +2,43 @@ var photos = {
     "photoSet": [
         {
             "id": 0,
-            "photo1":"images/people1.jpg",
-            "photo2":"images/people2.jpg",
-            "photo3":"images/people3.jpg",
-            "photo4":"images/people4.jpg",
-            "photo5":"images/people5.jpg",
-            "photo6":"images/people6.jpg",
-            "photo7":"images/people7.jpg"
+            "photo1":"images/people1.JPG",
+            "photo2":"images/people2.JPG",
+            "photo3":"images/people3.JPG",
+            "photo4":"images/people4.JPG",
+            "photo5":"images/people5.JPG",
+            "photo6":"images/people6.JPG",
+            "photo7":"images/people7.JPG"
         },
         {
             "id": 1,
-            "photo1":"images/places1.jpg",
-            "photo2":"images/places2.jpg",
-            "photo3":"images/places3.jpg",
-            "photo4":"images/places4.jpg",
-            "photo5":"images/places5.jpg",
-            "photo6":"images/places6.jpg",
-            "photo7":"images/places7.jpg"
+            "photo1":"images/places1.JPG",
+            "photo2":"images/places2.JPG",
+            "photo3":"images/places3.JPG",
+            "photo4":"images/places4.JPG",
+            "photo5":"images/places5.JPG",
+            "photo6":"images/places6.JPG",
+            "photo7":"images/places7.JPG"
         },
         {
             "id": 2,
-            "photo1":"images/things1.jpg",
-            "photo2":"images/things2.jpg",
-            "photo3":"images/things3.jpg",
-            "photo4":"images/things4.jpg",
-            "photo5":"images/things5.jpg",
-            "photo6":"images/things6.jpg",
-            "photo7":"images/things7.jpg"
+            "photo1":"images/things1.JPG",
+            "photo2":"images/things2.JPG",
+            "photo3":"images/things3.JPG",
+            "photo4":"images/things4.JPG",
+            "photo5":"images/things5.JPG",
+            "photo6":"images/things6.JPG",
+            "photo7":"images/things7.JPG"
         },
         {
             "id": 3,
-            "photo1":"images/arch1.jpg",
-            "photo2":"images/arch2.jpg",
-            "photo3":"images/arch3.jpg",
-            "photo4":"images/arch4.jpg",
-            "photo5":"images/arch5.jpg",
-            "photo6":"images/arch6.jpg",
-            "photo7":"images/arch7.jpg"
+            "photo1":"images/arch1.JPG",
+            "photo2":"images/arch2.JPG",
+            "photo3":"images/arch3.JPG",
+            "photo4":"images/arch4.JPG",
+            "photo5":"images/arch5.JPG",
+            "photo6":"images/arch6.JPG",
+            "photo7":"images/arch7.JPG"
         }
     ]
 }
