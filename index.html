@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hannah Mernyk Photography</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--script-->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+        <script src="lib/handlebars-v4.0.11.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    <!--styles-->
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="row"><br></div>
+        <div class="row">
+            <div class="col-sm-12 fadeInShort">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <!--column with title and nav-->
+                    <div id="header-nav" class="col-sm-2">
+                        <h3>Hannah Mernyk Photography</h3>
+                        <nav>
+                            <ul>
+                                <br>
+                                <li><a class="btn btn-default" href="" role="button">Home</a></li>
+                                <br>
+                                <li><button type="button" class="btn btn-default" data-toggle="modal" data-target="#aboutModal">About</button></li>
+                                <br>
+                                <li><button type="button" class="btn btn-default" data-toggle="modal" data-target="#contactModal">Contact</button></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!--html for About and Contact modals, hidden by default-->
+                    <div id="aboutModal" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">About</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Hannah was born in Palo Alto, CA.  She is currently in the MHCI program at Carnegie Mellon University in Pittsburgh, PA.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="contactModal" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Contact</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Email: hmernyk@andrew.cmu.edu</p>
+                                    <p>Phone: 555-555-5555</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--4 category options with hover glow and name overlay-->
+                    <div class="col-sm-4">
+                        <div class="row">
+                              <div id="people-category" class="col-xs-6">
+                                <div class="thumbnail hvr-glow category">
+                                    <img src="images/people1.jpg">
+                                    <div class="overlay">
+                                        <div class="overlay-text">People</div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div id="places-category" class="col-xs-6">
+                                <div class="thumbnail hvr-glow category">
+                                    <img src="images/places1.jpg">
+                                    <div class="overlay">
+                                      <div class="overlay-text">Places</div>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="row">
+                              <div id="things-category" class="col-xs-6">
+                                <div class="thumbnail hvr-glow category">
+                                    <img src="images/things1.jpg">
+                                    <div class="overlay">
+                                      <div class="overlay-text">Things</div>
+                                    </div>
+                                </div>
+                              </div>
+                            <div id="arch-category" class="col-xs-6">
+                                <div class="thumbnail hvr-glow category">
+                                    <img src="images/arch1.jpg">
+                                    <div class="overlay">
+                                      <div class="overlay-text">Architecture</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--image set container with pre-selection message-->
+                    <div id="imgs-container" class="col-sm-4">
+                        <div id="start-message">
+                            <img id="left-arrow" src="images/left-arrow.png">
+                            <p>Select category to explore</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Handlebars script for image set template-->
+        <script id="explore-imgs" type="text/x-handlebars-template">
+            <div class="fadeInLong smalls">
+                <div class="row">
+                    <div class="thumbnail col-xs-4">
+                        <img src={{photo1}}>
+                    </div>
+                    <div class="thumbnail col-xs-4">
+                        <img src={{photo2}}>
+                    </div>
+                    <div class="thumbnail col-xs-4">
+                        <img src={{photo3}}>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="thumbnail col-xs-4">
+                        <img src={{photo4}}>
+                    </div>
+                    <div class="thumbnail col-xs-4">
+                        <img src={{photo5}}>
+                    </div>
+                    <div class="thumbnail col-xs-4">
+                        <img src={{photo6}}>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="thumbnail col-xs-4">
+                        <img src={{photo7}}>
+                    </div>
+                </div>
+            </div>
+        </script>
+    </body>
+</html>
